@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MathTest" time="0.303" tests="1" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="MathTest" time="0.417" tests="2" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="gnome"/>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
-    <property name="sun.java.command" value="/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire/surefirebooter18038442527085868177.jar /home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire 2020-06-10T22-32-05_405-jvmRun1 surefire8521055315068844458tmp surefire_09072755485791993338tmp"/>
+    <property name="sun.java.command" value="/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire/surefirebooter9072406560049682966.jar /home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire 2020-06-10T22-44-21_407-jvmRun1 surefire14113720190207180002tmp surefire_015892794475785246331tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/test-classes:/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/classes:/home/enzo/.m2/repository/org/junit/jupiter/junit-jupiter/5.6.2/junit-jupiter-5.6.2.jar:/home/enzo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.2/junit-jupiter-api-5.6.2.jar:/home/enzo/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/home/enzo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/enzo/.m2/repository/org/junit/platform/junit-platform-commons/1.6.2/junit-platform-commons-1.6.2.jar:/home/enzo/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.6.2/junit-jupiter-params-5.6.2.jar:/home/enzo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.2/junit-jupiter-engine-5.6.2.jar:/home/enzo/.m2/repository/org/junit/platform/junit-platform-engine/1.6.2/junit-platform-engine-1.6.2.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire/surefirebooter18038442527085868177.jar"/>
+    <property name="surefire.real.class.path" value="/home/enzo/eclipse-workspace/eclipse-comun/demo-ci/target/surefire/surefirebooter9072406560049682966.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.7+10-post-Ubuntu-2ubuntu219.10"/>
     <property name="user.name" value="enzo"/>
@@ -57,9 +57,6 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="testSum" classname="MathTest" time="0.256">
-    <failure message="expected: &lt;3&gt; but was: &lt;2&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <3> but was: <2>
-	at MathTest.testSum(MathTest.java:9)
-]]></failure>
-  </testcase>
+  <testcase name="testSum" classname="MathTest" time="0.29"/>
+  <testcase name="testDivide" classname="MathTest" time="0.013"/>
 </testsuite>
